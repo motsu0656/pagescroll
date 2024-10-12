@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vertical-navbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.vertical-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.vertical-navbar ul li {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.vertical-navbar ul li:first-child{
+  margin-left: 0;
+}
+
+.vertical-navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.vertical-navbar ul li a:hover {
+  color: #007bff;
+}
+
+.section {
+  padding: 100px 20px;
+  height: 600px; /* 各セクションに十分な高さを設定 */
+  border-bottom: 1px solid #ddd;
+}
+
+#top {
+  background-color: #f4f4f4;
+}
+
+#section1 {
+  background-color: #eaeaea;
+}
+
+#section2 {
+  background-color: #dcdcdc;
+}
+
+#section3 {
+  background-color: #cccccc;
+}
+
+#section4 {
+  background-color: #bdbdbd;
+}
+
+h1, h2 {
+  margin: 0;
+  padding-bottom: 20px;
+}
